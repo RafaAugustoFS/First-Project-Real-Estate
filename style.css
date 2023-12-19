@@ -1,0 +1,173 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container-header{
+    background-color: black;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+}
+.img-header{
+    position: relative;
+    float: left;
+    left: 10px;
+    object-fit: cover;
+    height: 100px;
+}
+.header{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.header li{
+    margin-top: 25px;
+    text-decoration: none;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+}
+
+.apresentacao{
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+margin-left: 200px;
+}
+.apresentacao h1{
+    margin-top:7px ;
+}
+.apresentacao p{
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+.imoveis{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.imoveis p{
+    margin-top: 10px;
+}
+.imovel1{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+.imovel1-img{
+    width: 550px;
+    height: 320px;
+}
+.imovel1-img img{
+    margin-right: 20px;
+}
+.container-imovel1 p{
+    margin-top:5px ;
+    margin-bottom:5px ;
+}
+.container-imovel2{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 200px;
+}
+.imovel2-img{
+    width: 550px;
+    height: 320px;
+}
+.container-imovel2 p{
+    margin-top:5px ;
+    margin-bottom:5px ;
+}
+.container-imovel3{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 200px;
+}
+.imovel3-img{
+    width: 550px;
+    height: 320px;
+}
+.container-imovel3 p{
+    margin-top:5px ;
+    margin-bottom:5px ;
+}
+.container-imovel4{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 200px;
+}
+.imovel4-img{
+    width: 550px;
+    height: 320px;
+}
+.container-imovel4 p{
+    margin-top:5px ;
+    margin-bottom:5px ;
+}
+.container-imovel5{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 200px;
+}
+.imovel5-img{
+    width: 550px;
+    height: 320px;
+}
+.container-imovel5 p{
+    margin-top:5px ;
+    margin-bottom:5px ;
+}
+.calendar-container{
+    font-family: 'Montserrat', sans-serif;
+}
+.calendar{
+    justify-content: space-between;
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.calendar h3{
+    margin-top: 7px;
+}
+.calendar h4{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.calendar p{
+    margin-bottom: 7px;
+}
+.footer-container{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.footer{
+    background-color: black;
+}
+.footer img{
+width: 100px;
+}
+.footer p{
+    text-align: center;
+}
+.NewsLetter h3{
+color: black;
+text-align: center;
+}
+.background-imoveis{
+    background-color: rgb(250, 246, 246);
+}
+iframe{
+    margin-left: 35px;
+}

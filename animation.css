@@ -1,0 +1,46 @@
+.container-carrosel{
+    width: 37%;
+overflow: hidden;
+margin-left: auto;
+margin-right: auto;
+}
+.galery-car{
+    width: 500%;
+    animation-name: anime;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+.galery-car img{
+    width: 19.9%;
+    height: auto;
+}
+@keyframes anime{
+    0%{
+        margin-left: 0;
+    }
+    20%{
+        margin-left: 0;
+    }
+    25%{
+        margin-left: -100%;
+    }
+    45%{
+        margin-left: -100%;
+    }
+    50%{
+        margin-left: -200%;
+    }
+    70%{
+        margin-left: -200%;
+    }
+    75%{
+        margin-left: -300%;
+    }
+    95%{
+        margin-left: -300%;
+    }
+    100%{
+        margin-left: -400%;
+    }
+
+}
